@@ -1,0 +1,42 @@
+:root {
+    --azulEcuro: #012136;
+    --azulMedio: #034f82;
+    --azulClaro: #047ecf;
+}
+
+.azulEscuroFundo {
+    background-color: var(--azulEcuro);                           
+}
+
+.azulClaroFonte {
+    color: var(--azulClaro);
+    text-decoration: none;
+    padding: 8px;
+}
+
+/* modal */
+
+.the-modal {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+
+}
+
+.in-modal{
+    background-color:white;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.in-modal > span{
+    background-color: lightgray;
+    float: right;
+    width: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.in-modal > span:hover{
+    background-color: gray;
+}
