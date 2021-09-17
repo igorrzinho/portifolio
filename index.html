@@ -1,17 +1,22 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>portifolio</title>
-  </head>
-  <body>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+
+  <link rel="stylesheet" href="css/myStyle.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+  <title>portifolio</title>
+</head>
+
+<body>
   <!-- inicio menu -->
   <nav class="navbar navbar-expand-lg navbar-light bg-info">
     <div class="container-fluid">
@@ -22,9 +27,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link " aria-current="page" href="index.html">Home</a>
-          <a class="nav-link " href="#aboutMe">sobre mim</a>
-          <a class="nav-link " href="#">projetos</a>
+          <a class="nav-link " aria-current="page" href="#aboutMe">sobre mim</a>
+          <a class="nav-link " href="#habilidades">habilidades</a>
+          <a class="nav-link " href="#projetos">projetos</a>
           <a class="nav-link " href="#contato" tabindex="-1" aria-disabled="true">contato</a>
         </div>
       </div>
@@ -33,82 +38,143 @@
   <!-- final menu -->
   <!-- inicio sobre mim -->
   <section id="aboutMe" class="col-md-12 row">
-  <h2 class="">sobre mim</h2>
-  <div class="col-md-6 col-lg-6"><img class="img-fluid" src="img/card/desing.png" alt=""></div>
-  <div class="col-md-6 col-lg-6"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis cupiditate adipisci dicta! Et modi id perferendis asperiores itaque, voluptate ducimus excepturi atque similique mollitia vero, ea cumque, dicta tenetur quam?</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque sunt mollitia ut harum dicta iure commodi saepe suscipit rem et.</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat earum aut ipsum qui, dolorum cupiditate quia, exercitationem excepturi tenetur doloribus alias deserunt fuga maxime eum omnis ex accusantium quo at iusto dolor. Odio blanditiis quo optio soluta beatae alias.</p></div>
+    <h2 class="main-title">so<span>bre m</span>im</h2>
+    <div class="col-md-6 "><img class="img-fluid" src="img/habilidades/desing.png" alt=""></div>
+    <div class="col-md-6 ">
+
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis cupiditate adipisci dicta! Et modi id
+        perferendis asperiores itaque, voluptate ducimus excepturi atque similique mollitia vero, ea cumque, dicta
+        tenetur quam?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque sunt mollitia ut harum dicta iure commodi
+        saepe suscipit rem et.</p>
+      <h3 class="secundary-title">hobies</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat earum aut ipsum qui, dolorum
+        cupiditate quia, exercitationem excepturi tenetur doloribus alias deserunt fuga maxime eum omnis ex accusantium
+        quo at iusto dolor. Odio blanditiis quo optio soluta beatae alias.</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa non impedit voluptates iusto laborum,
+        laudantium ipsam. Esse quidem blanditiis nulla.</p>
+    </div>
   </section>
- <!--  final sobre mim -->
+  <!--  final sobre mim -->
+
   <!--inicio carrossel-->
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img\carrossel/fotoEditada.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img\carrossel/gif.gif" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img\carrossel\rosa.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img\carrossel\pixesArtes.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img\carrossel\fotoEditada.png" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img\carrossel\porDoSol.png" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
   <!--  final do carrossel -->
-  <!--  inicio dos cards -->
-  <div class="card-group " style="margin-top: 100px;">
-    <div class="card " >
-      <img src="img/card/desing.png " class="card-img-top " alt="HTML ">
-      <div class="card-body ">
-        <h5 class="card-title text-center">design grafico</h5>
-        
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis quas architecto quos expedita porro qui quam! Debitis delectus tempora labore?</p>
-<a class="btn btn-info" href="">saiba mais</a>
+
+  <!--inicios habilidades-->>
+  <section id="habilidades">
+    <div class="row">
+      <h2 class="main-title">habilidades</h2>
+      <div class="col-md-3 m-auto"><img class="img-fluid" src="img/habilidades/responsive.png" alt="">
+        <h3 class="secundary-title">desenvolvimento web</h3>
+        <p>sem duvida alguma uma das coisas que mais gostei no mundo da TI foi o desenvolvimento web, foi onde "me encontrei" eu realmente gosto de criar sites bonitos e programar, por isso pretendo seguir minha carreira profisional como desenvolvedor full-stak.</p>
+      </div>
+       <div class="col-md-3 m-auto"><img class="img-fluid" src="img/habilidades/javascript.png" alt="">
+        <h3 class="secundary-title">JavaScript</h3>
+        <p>javascript é uma linguagem de programação muito ultilizada para o desenvolvimento web, com toda certeza você ja viu algum site que ultiliza essa linguagem. estudei essa linguagem durante 6 meses consecultivos para compreendela da melhor forma. </p>
+      </div>
+      <div class="col-md-3 m-auto"><img class="img-fluid" src="img/habilidades/desing.png" alt="">
+        <h3 class="secundary-title">desing grafico</h3>
+        <p>como voce deve ter visto acima antes de querer me tornar programador eu me interecei muito pela area de desing grafico, ate fiz alguns cursos sobre montagem de fotos e banners, e tenho um grande conhecimento na area mesmo nao qurendo seguir carreira com ela.</p>
       </div>
     </div>
-    <div class="card">
-      <img src="img/card/bootstrap.png " class="card-img-top " alt="bootstrap ">
-      <div class="card-body ">
-        <h5 class="card-title text-center">Bootstrap</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident saepe molestias cum, in hic obcaecati excepturi molestiae dolore quasi repellat.</p>
-        <a class="btn btn-info" href="">saiba mais</a>
+
+  </section>
+  <!--final das habilidades-->
+
+  <!-- inicio projetos-->
+  <section id="projetos" class="col-md-12 row">
+    <h2 style="margin-top:20px;" class="main-title">projetos</h2>
+    <div class="row m-auto col-md-5">
+      <h3 class="secundary-title">site em <span>parallax</span></h3>
+      <div class="col-md-6"><img class="img-fluid" src="img/projetos/parallax.jpg" alt=""></div>
+      <div class="col-md-6">
+        <p>esse é um site em parallax, desenvolvido apenas com HTML e CSS, onde a imagem vai mudando junto com o site fazendo assim uma ilusão muito bonita para quem o vê.</p>
+        <a class="btn btn-info m-auto" href="https://igorrzinho.github.io/parallax/">saiba mais</a>
       </div>
     </div>
-    <div class="card m-auto ">
-      <img src="img/card/wordpress.png " class="card-img-top " alt="wordPress ">
-      <div class="card-body ">
-        <h5 class="card-title text-center">WordPress</h5>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus beatae corporis quae quaerat magnam optio similique ratione neque quos necessitatibus.</p>
-        <a class="btn btn-info" href="">saiba mais</a>
+    <div class="row m-auto col-md-5">
+      <h3 class="secundary-title">semaf<span>oro</span></h3>
+      <div class="col-md-6"><img class="img-fluid" src="img/projetos/semaforo.jpg" alt=""></div>
+      <div class="col-md-6">
+        <p>Já esse semaforo desenvolvi a pouco tempo com HTML,CSS e JS, basicamente é uma imagen que muda de cor de acordo com os botoes clicados.</p>
+        <a class="btn btn-info m-auto" href="https://igorrzinho.github.io/semaforo/">saiba mais</a>
       </div>
     </div>
-    <div class="card m-auto ">
-      <img src="img/card/photoshop.png " class="card-img-top " alt="wordPress ">
-      <div class="card-body ">
-        <h5 class="card-title text-center">Photoshop</h5>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum maxime repellendus vel. Debitis, assumenda est nulla autem ipsum explicabo corrupti.</p> 
-        <a class="btn btn-info" href="">saiba mais</a>
+    <div class="row m-auto col-md-5">
+      <h3 class="secundary-title">calculadora<span>de IMC</span></h3>
+      <div class="col-md-6"><img class="img-fluid" src="img/projetos/calculadoraIMC.jpg" alt=""></div>
+      <div class="col-md-6">
+        <p>Essa calculadora serve para calcularmos nosso IMC (International Medical Corp) e ver se estamos com o IMC ideal ou não.Foi desenvolvida com HTML,CSS e JS.</p>
+        <a class="btn btn-info m-auto" href="https://igorrzinho.github.io/calculadoraDeIMC/">saiba mais</a>
       </div>
     </div>
-  </div>
-  <!-- final dos cards -->
+    <div class="row m-auto col-md-5">
+      <h3 class="secundary-title">calcula<span>dora</span></h3>
+      <div class="col-md-6"><img class="img-fluid" src="img/projetos/calculadora.jpg" alt=""></div>
+      <div class="col-md-6">
+        <p>Essa é uma calculadora que desenvolvi com HTML, CSS e JavaScript, quando estava começando os estudos de javascript. Serve para fazer alguns calculos.</p>
+        <a class="btn btn-info m-auto" href="https://igorrzinho.github.io/calculadora/">saiba mais</a>
+      </div>
+    </div>
+    <div class="row m-auto col-md-5">
+      <h3 class="secundary-title">site <span>interdiciplinar</span></h3>
+      <div class="col-md-6"><img class="img-fluid" src="img/projetos/bootstrap.png" alt=""></div>
+      <div class="col-md-6">
+        <p>Essa é uma calculadora que desenvolvi com HTML, CSS e JavaScript, quando estava começando os estudos de javascript. Serve para fazer alguns calculos.</p>
+        <a class="btn btn-info m-auto" href="https://gruposinterdisciplina.github.io/VKS/">saiba mais</a>
+      </div>
+    </div>
+    <div class="row m-auto col-md-5">
+      <h3 class="secundary-title">relo<span>gio</span></h3>
+      <div class="col-md-6"><img class="img-fluid" src="img/projetos/relogio.jpg" alt=""></div>
+      <div class="col-md-6">
+        <p>Essa é uma calculadora que desenvolvi com HTML, CSS e JavaScript, quando estava começando os estudos de javascript. Serve para fazer alguns calculos.</p>
+        <a class="btn btn-info m-auto" href="https://igorrzinho.github.io/relogio/">saiba mais</a>
+      </div>
+    </div>
+
+  </section>
+  <!--final dos projetos-->
   <!--formulario inicio-->
   <section id="contato" style="margin-top: 50px;">
-    <div class="col-md-8 col-sm-12 col-lg-6 m-auto ">
-    <h3 class="">contact-me</h3>
+    <div class="col-md-6 m-auto ">
+      <h3 class="main-title">con<span>tact</span>-me</h3>
+      <h2 class="secundary-title">entre em contato comigo pelas minhas redes:</h2>
+      <p>meu telegram: <i class="bi bi-box-arrow-right"></i><a href="#">11 *****-***</a></p>
+      <p>meu linkedin: <a href="#">seu nome</a></p>
+      <p>meu email: <a href="#">email.seuemail@emeil.com</a></p>
+      <p>meu git-hub: <a href="https://github.com/igorrzinho">igorrzinho</a></p>
       <form action=" ">
         <div class="row ">
           <div class="col ">
@@ -119,8 +185,7 @@
           </div>
         </div>
         <div class="form-group row text-center " style="margin-top: 15px;">
-          <label for="inputEmail3 " class="col-sm-2 col-form-label ">Email</label>
-          <div class="col-sm-10 ">
+          <div class="col-md-12 ">
             <input type="email " class="form-control " id="inputEmail3 " placeholder="Email ">
           </div>
         </div>
@@ -151,40 +216,45 @@
               Checkbox padrão
             </label>
           </div>
-            <!-- botao que ativa a modal -->
-<button type="button" class="btn btn-info col-lg-12 col-sm-12 col-md-12 m-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  enviar
-</button>
+          <!-- botao que ativa a modal -->
+          <button style="width: 100%;" type="button" class="btn btn-info m-auto" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">
+            enviar
+          </button>
 
-<!-- inicio Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">obrigado</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        agradecemos você por entrar em contato conosco
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-info" data-bs-dismiss="modal">continuar</button>
-        
-      </div>
-    </div>
-  </div>
-</div>
-<!-- final da modal -->        </div>
+
+          <!-- inicio Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">obrigado</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  agradecemos você por entrar em contato conosco
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-info" data-bs-dismiss="modal">continuar</button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- final da modal -->
+        </div>
       </form>
     </div>
   </section>
 
   <!--formulario final -->
-    <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="js/bootstrap.bundle.min.js"></script>
 
 
-  </body>
+</body>
+
 </html>
