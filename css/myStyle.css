@@ -1,17 +1,46 @@
 :root {
-    --azulEcuro: #14283e;
-    --azulMedio: #39637f;
-    --azulClaro: #a3cef1;
-    --cinzaClaro: #e7ecef;
-    --cinzaMedio: #858683 ;
+    --azulEscuro: #14283e ;
+    --azulMedio: #216082;
+    --azulClaro: #97DAFE ;
+    --cinzaClaro: #cccccc;
+    --cinzaMedio: #858585 ;
+}
+/* estilo */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+    overflow-x: hidden;
+    overflow-y:scroll ;
 }
 
-html{
-overflow-x:none;
+
+/* header */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+} 
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
+.margin-70{
+    padding-top: 80px;
+}
+
+/*  */
 p {
     font-size: 1.2rem;
+    width: 90%;
+    margin: auto;
+}
+p i {
+    color: black;
 }
 
 .main-title {
@@ -32,6 +61,10 @@ p {
 
 .main-title span, .secundary-title span {
     border-bottom:solid var(--azulEcuro) 3px;
+}
+/* seçoes */
+section{
+    margin-top: 50px;
 }
 
 /*contato*/
