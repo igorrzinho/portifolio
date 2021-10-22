@@ -1,5 +1,4 @@
-### portifolio
+# portifolio
 
 # antes de usar verifique a [lincença](https://github.com/igorrzinho/portifolio/blob/main/LICENSE) do projeto
-
-* click [aqui](https://igorrzinho.github.io/portifolio/) para conferir 
+## esse site fiz para um trabalho de iw onde criamos um site com bootstrap5  para acessar click [aqui](https://igorrzinho.github.io/portifolio/)
