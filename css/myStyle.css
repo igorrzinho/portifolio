@@ -62,7 +62,7 @@ to{
     right: 0;
 }
 
-.wave1 {
+.wave3 {
     animation: moveWave1 3s ease-in-out infinite alternate;
 }
 
@@ -70,7 +70,7 @@ to{
     animation: moveWave2 3s 1.5s ease-in-out infinite alternate;
 }
 
-.wave3 {
+.wave1 {
     animation: moveWave3 3s 1s ease-in-out infinite alternate;
 }
 
@@ -154,14 +154,14 @@ section{
     width: 2rem;
     animation: imgContact 1s ease-in-out alternate infinite;
 }
-@keyframes imgContact{
+/* @keyframes imgContact{
 from{
-    transform: translateX(-30px);
+    transform: translateX(-10px);
 }
 to{
     transform:translateX(0px);
 }
-}
+} */
 /* cards */
 .img-card{
     height: 150px;
