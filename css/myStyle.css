@@ -154,14 +154,17 @@ section{
     width: 2rem;
     animation: imgContact 1s ease-in-out alternate infinite;
 }
-/* @keyframes imgContact{
-from{
-    transform: translateX(-10px);
+/* barra de rolagem */
+::-webkit-scrollbar{
+    border-radius: 10%;
+    background-color: var(--azulClaro);
 }
-to{
-    transform:translateX(0px);
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--azulEscuro);
+    border-radius: 10px;
 }
-} */
+
 /* cards */
 .img-card{
     height: 150px;
@@ -241,6 +244,7 @@ to{
     margin: 0;
     padding: 0;
 }
+
 @media only screen and (max-width: 800px) {
   .container .card{
     position: relative;
