@@ -1,9 +1,9 @@
-$(document).ready(function () {
-    $(window).scroll(function () {
-        if(this.scrollY > 100){
-    $('.navbar').addClass("bg-glass")
-}else{
-    $('.navbar').removeClass("bg-glass")
-}
+$(document).ready(function() {
+    $(window).scroll(function() {
+        if (this.scrollY > 200) {
+            $('.navbar').addClass("bg-glass")
+        } else {
+            $('.navbar').removeClass("bg-glass")
+        }
     })
 })

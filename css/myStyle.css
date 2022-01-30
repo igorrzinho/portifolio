@@ -223,8 +223,7 @@ section #projetos {
 }
 
 .img-contact {
-    width: 2rem;
-    animation: imgContact 1s ease-in-out alternate infinite;
+    width: 1.5rem;
 }
 
 
@@ -233,6 +232,7 @@ section #projetos {
 ::-webkit-scrollbar {
     border-radius: 10%;
     background-color: var(--cinzaMedio);
+    border: 0.1px solid var(--cinzaClaro);
 }
 
 ::-webkit-scrollbar-thumb {
