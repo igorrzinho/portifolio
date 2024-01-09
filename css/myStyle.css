@@ -1,241 +1,248 @@
 :root {
-    --azulEcuro: #449fff;
-    --azulMedio: #67a3c4;
-    --azulClaro: #97dafe;
-    --cinzaClaro: #ccc;
-    --cinzaMedio: #222;
+  --azulEcuro: #449fff;
+  --azulMedio: #67a3c4;
+  --azulClaro: #97dafe;
+  --cinzaClaro: #ccc;
+  --cinzaMedio: #222;
 }
-
 
 /* estilo */
 
 html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 75px;
-    overflow-x: hidden;
-    overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 body {
-    background: #111;
-    color: #fff;
-    font-weight: 300;
+  background: #111;
+  color: #fff;
+  font-weight: 300;
 }
-
 
 /* header */
 
 .navbar {
-    transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
 }
 
 .navbar.bg-glass {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-sizing: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.1)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-sizing: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 .bg-glass {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-sizing: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.1)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-sizing: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
 }
 
 footer {
-    position: absolute;
-    left: 0;
-    right: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 
 .margin-70 {
-    padding-top: 80px;
+  padding-top: 80px;
 }
-
 
 /* ondas */
 
 .secone {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
-.secone>p {
-    text-align: center;
-    font-size: 1rem;
-    color: var(--azulEscuro);
-    font-weight: bold;
-    animation: welcome 2s ease-in-out infinite alternate;
+.secone > p {
+  text-align: center;
+  font-size: 1rem;
+  color: var(--azulEscuro);
+  font-weight: bold;
+  animation: welcome 2s ease-in-out infinite alternate;
 }
 
 @keyframes welcome {
-    from {
-        transform: translateX(30px);
-    }
-    to {
-        transform: translateX(-30px);
-    }
+  from {
+    transform: translateX(30px);
+  }
+  to {
+    transform: translateX(-30px);
+  }
 }
 
 .waves {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .wave3 {
-    animation: moveWave1 3s ease-in-out infinite alternate;
+  animation: moveWave1 3s ease-in-out infinite alternate;
 }
 
 .wave2 {
-    animation: moveWave2 3s 1.5s ease-in-out infinite alternate;
+  animation: moveWave2 3s 1.5s ease-in-out infinite alternate;
 }
 
 .wave1 {
-    animation: moveWave3 3s 1s ease-in-out infinite alternate;
+  animation: moveWave3 3s 1s ease-in-out infinite alternate;
 }
 
 @keyframes moveWave1 {
-    from {
-        transform: translateX(-2000px);
-    }
+  from {
+    transform: translateX(-2000px);
+  }
 }
 
 @keyframes moveWave2 {
-    from {
-        transform: translateX(-1800px);
-    }
+  from {
+    transform: translateX(-1800px);
+  }
 }
 
 @keyframes moveWave3 {
-    from {
-        transform: translateX(-1600px);
-    }
+  from {
+    transform: translateX(-1600px);
+  }
 }
-
 
 /* habilidades */
 
 .margin-top {
-    margin: 40px auto;
+  margin: 40px auto;
 }
 
 .img-habilidades {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .img-habilidades img {
-    width: 80%;
+  width: 80%;
 }
 
 p {
-    font-size: 1.2rem;
-    width: 90%;
-    margin: auto;
+  font-size: 1.2rem;
+  width: 90%;
+  margin: auto;
 }
 
 p i {
-    color: black;
+  color: black;
 }
 
 .main-title {
-    color: var(--cinzaClaro);
-    font-size: 3rem;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
+  color: var(--cinzaClaro);
+  font-size: 3rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
 }
 
 .secundary-title {
-    font-size: 2rem;
-    color: var(--azulEcuro);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    text-align: center;
-    font-weight: 300;
+  font-size: 2rem;
+  color: var(--azulEcuro);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  font-weight: 300;
 }
 
 .main-title span,
 .secundary-title span {
-    border-bottom: solid var(--azulEcuro) 3px;
+  border-bottom: solid var(--azulEcuro) 3px;
 }
-
 
 /* seçoes */
 
 section {
-    margin-top: 50px;
+  margin-top: 50px;
 }
-
 
 /* projetos */
 
 section #projetos {
-    justify-content: center;
-    align-items: center;
-    display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .projetos {
-    text-align: center;
-    position: relative;
-    margin: 30px auto;
+  text-align: center;
+  position: relative;
+  margin: 30px auto;
 }
 
 .projetos img {
-    width: 90%;
+  width: 90%;
 }
 
 .projetos p {
-    text-align: left;
+  text-align: left;
 }
-
 
 /*contato*/
 
 #contato p a {
-    color: var(--azulEcuro);
-    font-weight: 400;
-    font-size: 1.2rem;
-    padding: 10px;
-    border-radius: 5px;
-    text-decoration: none;
+  color: var(--azulEcuro);
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 #contato p a:hover {
-    color: var(--cinzaClaro);
-    font-weight: 400;
-    text-decoration: underline;
+  color: var(--cinzaClaro);
+  font-weight: 400;
+  text-decoration: underline;
 }
 
 .img-contact {
-    width: 1.5rem;
+  width: 1.5rem;
 }
-
 
 /* barra de rolagem */
 
 ::-webkit-scrollbar {
-    border-radius: 10%;
-    background-color: var(--cinzaMedio);
-    border: 0.1px solid var(--cinzaClaro);
+  border-radius: 10%;
+  background-color: var(--cinzaMedio);
+  border: 0.1px solid var(--cinzaClaro);
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--cinzaClaro);
-    border-radius: 10px;
+  background-color: var(--cinzaClaro);
+  border-radius: 10px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
