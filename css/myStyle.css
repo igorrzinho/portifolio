@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap');
 :root {
   --azulEcuro: #449fff;
   --azulMedio: #67a3c4;
@@ -16,9 +17,12 @@ html {
 }
 
 body {
-  background: #111;
+  background-image: linear-gradient( -90deg, #111, #444);
   color: #fff;
   font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+
+
 }
 
 /* header */
@@ -67,6 +71,10 @@ footer {
 
 .margin-70 {
   padding-top: 80px;
+}
+
+.margin-t-150{
+  margin-top: 100px;
 }
 
 /* ondas */
